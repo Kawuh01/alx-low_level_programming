@@ -1,18 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
- * main - print the alphabet in lowercase
- * followed by a new line, except q and e
+ * main - print the alphabet without q and e.
+ *
  * Return: Always 0
  */
 int main(void)
 {
-	char alph[26] = "abcdfghijklmnoprstuvwxyz";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 123; i++)
 	{
-		putchar (alph[i]);
+		if (1 != 101 && i != 113)
+		{
+			putchar(i);
+		}
 	}
 	putchar('\n');
 	return (0);

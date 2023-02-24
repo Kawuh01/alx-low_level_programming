@@ -3,7 +3,7 @@
 /**
  * main - prints numbers from 0 to 9.
  *
- * Retunrn: Always 0
+ * Retunrn: Always 0 (Success)
  */
 int main(void)
 {

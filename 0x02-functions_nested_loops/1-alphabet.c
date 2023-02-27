@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 
-void print_alphabet('a-z')
+void print_alphabet("a-z")
 {
 	char letter;
 

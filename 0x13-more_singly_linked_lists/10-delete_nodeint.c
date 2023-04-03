@@ -7,7 +7,7 @@
  *
  * Return: 1 (Success), or -1 (Fail)
  */
-int delete_nodeint_at_index(listint_t **head, unsigned int index)p
+int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
 	listint_t *temp = *head;
 	listint_t *current = NULL;
@@ -22,6 +22,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)p
 		free(temp);
 		return (1);
 	}
+
 	while (i < index - 1)
 	{
 		if (!temp || !(temp->next))
